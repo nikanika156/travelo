@@ -1,0 +1,180 @@
+@media screen and (max-width:1150px){
+    .header_2{
+        font-size: 14px;
+    }
+    .sec div{
+        width: 290px;
+        height: 220px;
+        background-size: cover ;
+    }
+    .sec{
+        width: 100%;
+    }
+    .popular_places_area{
+        width: 100%;
+    }
+    .popular_places_deals{
+        width: 290px;
+    }
+    .popular_places_deals .image{
+        width: 290px;
+        height: 170px;
+        
+        background-size: cover ;
+    }
+    .search_inputs{
+        width: 600px;
+    }
+    .search_inputs input,select{
+        gap: 10px;
+        width: 150px;
+        height: 45px;
+    }
+    .search_inputs button{
+        height: 45px;
+        width: 100px;
+    }
+    .navbar-nav{
+        gap: 0%;
+    }
+    .fa-phone{
+        font-size: 13px;
+    }
+    
+    
+    .popular_place_area{
+        width: 100%;
+    }
+
+    .list_1{
+        gap: 25px;
+        margin-left: 0px;
+    }    
+    .main-icons{
+        width: 100%;
+    }
+}
+@media  screen and (max-width:950px) {
+    .main_search_area{
+        flex-flow: column;
+    }
+    .menu_icon{
+        display: block;
+    }
+    nav img{
+        margin-left: 0;
+    }
+    .list_1{
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+
+        fill: gray;
+    }
+
+    .subscribe_main{
+        flex-flow: column;
+    }
+    .subscribe_header{
+        width: 100%;
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    
+}
+@media screen and (max-width:750px) {
+    
+}
+@media screen and (max-width:630px) {
+    .header{
+        height: 60px;
+    }
+    .main_banner{
+        height: 350px;
+        display: flex;
+        align-items: start;
+    }
+    .banner{
+        display: flex;
+        align-items: start;
+        height: 350px;
+    }
+    .banner div{
+        height:350px ;
+        align-items: center;
+        margin: 0 0 0 0;
+        /* background-size: 100% 100%; */
+        /* display: block; */
+    }
+    .banner div h1{
+        font-size: 50px;
+
+    }
+    .banner div p{
+        width: 400px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .popular_destination_area{
+        width: 100%;
+    }
+    .section_header{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: 100%;
+    }
+    .section_header h2{
+        font-size: 25px;
+    }
+    .section_header p{
+        width: 400px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .sec div{
+        width:400px;
+        height: 300px;
+    }
+    .main_search_area ,.search_inputs{
+        flex-flow: column;
+        align-items: center;
+        height: 300px;
+    }
+    
+    .search_inputs{
+        /* align-items: start; */
+        width: 100%;
+        justify-content: start;
+        gap: 15px;
+    }
+    .search_inputs input ,select{
+        width: 85%;
+    }
+    .subscribe{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .popular_places_header p{
+        width: 80%;
+        line-height: normal;
+        margin-top: 20px;
+    }
+    .section_header p{
+        width: 80%;
+    }
+}
+@media screen and (max-width:450px) {
+    .sec div {
+        width: 300px;
+        height: 225px;
+    }
+
+
+    
+}

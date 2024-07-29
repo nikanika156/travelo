@@ -1,0 +1,68 @@
+.background_image_1{
+    background:url(../img/background/banner.png);
+    animation: slide1 10s infinite linear;
+    height: 650px;
+    visibility: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.background_image_2{
+    background:url(../img/background/banner2.png);
+    animation: slide2 10s infinite linear;
+    height: 650px;
+    visibility: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.background_image_3{
+    background:url(../img/background/banner3.png);
+    animation: slide3 10s infinite linear;
+    height: 650px;
+    visibility: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+@keyframes slide3 {
+   0%{
+       visibility: visible;
+   }
+   33%{
+       visibility: hidden;
+   }
+}
+@keyframes slide2 {
+    33%{
+        visibility: visible;
+    }
+    66%{
+        visibility: hidden;
+    }
+}
+@keyframes slide1 {
+    66%{
+       visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }     
+}
+
+@keyframes play{
+    0%{  
+        position: absolute;
+        padding: 0px;
+    }
+    100%{
+        position: absolute;
+        padding: 30px;
+        /* background-color: #1ec6b550; */
+        background-color: #1ec6b500;
+    }
+
+}
